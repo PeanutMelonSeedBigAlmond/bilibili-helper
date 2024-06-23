@@ -313,7 +313,7 @@ data class VideoSimple(
 @Serializable
 data class VideoPage(
     @SerialName("cid")
-    val cid: Int,
+    val cid: Long,
     @SerialName("dimension")
     val dimension: VideoDimension,
     @SerialName("duration")
